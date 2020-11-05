@@ -60,8 +60,10 @@ export default {
         serve({
             // open: true,
             contentBase: 'dist',
-            host: '0.0.0.0',
-            port: 8000,
+            host: 'localhost',
+            port: 10001,
+            // host: '0.0.0.0', // for VirtualBox
+            // port: 8000, // for VirtualBox
             headers: {
                 'Access-Control-Allow-Origin': '*'
             }
